@@ -1,2 +1,3 @@
 import './Nav';
-import './TitleChanger'
+import './TitleChanger';
+import './Mine';
