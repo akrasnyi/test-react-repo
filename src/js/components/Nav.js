@@ -2,11 +2,6 @@ import React from "react";
 import { IndexLink, Link } from "react-router";
 
 export default class Nav extends React.Component {
-  handleChange(e) {
-    const title = e.target.value;
-    this.props.changeTitle(title);
-  }
-
   render() {
       const { location } = this.props;
       const sharedClass = location.pathname === "/" ? "aui-nav-selected" : "";

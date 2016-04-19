@@ -3,9 +3,9 @@ import ReactDOM from "react-dom";
 import { Router, Route, IndexRoute, hashHistory } from "react-router";
 
 import Layout from "./components/Layout";
-import Mine from "./components/Main/Mine";
-import Settings from "./components/Main/Settings";
-import Shared from "./components/Main/Shared";
+import Mine from "./components/containers/Mine";
+import Settings from "./components/containers/Settings";
+import Shared from "./components/containers/Shared";
 
 import '../css/style.scss';
 
